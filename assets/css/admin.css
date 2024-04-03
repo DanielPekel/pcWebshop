@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+#wp-admin-bar-profi-web-need-support a {
+    background: #0073AA !important;
+    color: #FFFFFF !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+#wp-admin-bar-profi-web-need-support a:hover {
+    background: #28669D !important;
+    color: #FFFFFF !important;
+}
+
+#wpadminbar {
+    background: #1e1e1e !important;
+}
+
+#wp-admin-bar-wp-logo {
+    display: none !important;
+}
+
+.wp-admin, #wpadminbar, #wpadminbar .ab-item {
+    font-family: 'Raleway', sans-serif !important;
+}
+
+body #adminmenu div.wp-menu-image::before {
+    color: #28669D !important;
+}
+
+body #adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head, body #adminmenu .wp-menu-arrow, body #adminmenu .wp-menu-arrow div, body #adminmenu li.current a.menu-top, body #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, body .folded #adminmenu li.current.menu-top, body .folded #adminmenu li.wp-has-current-submenu {
+    color: black !important;
+    border-bottom: 2px solid #28669D !important;
+    background: #fff !important;
+}
+
+body #adminmenu .wp-submenu a:focus, body #adminmenu .wp-submenu a:hover, body #adminmenu a:hover, body #adminmenu li.menu-top > a:focus {
+    color: #28669D !important;
+}
+
+input[type="color"], input[type="date"], input[type="datetime-local"], input[type="datetime"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], select, textarea {
+
+    border: none !important;
+}
+.inside input[type="color"],.inside  input[type="date"],.inside  input[type="datetime-local"],.inside  input[type="datetime"],.inside  input[type="email"],.inside  input[type="month"],.inside  input[type="number"],.inside  input[type="password"],.inside  input[type="search"],.inside  input[type="tel"], .inside input[type="text"],.inside  input[type="time"], .inside input[type="url"], .inside input[type="week"],.inside  select,.inside  textarea {
+
+    border: 1px solid #7e8993!important;
+}
+thead input[type="checkbox"], thead input[type="radio"] {
+	border: 1px solid #7e8993!important;
+}
+input[type="checkbox"], input[type="radio"] {
+    border: none !important;
+    box-shadow: none !important;
+}
+.postbox {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+input[type="radio"]:checked::before {
+    margin: .225rem !important;
+}
+
+#menu-management .menu-edit, #menu-settings-column .accordion-container, .comment-ays, .feature-filter, .imgedit-group, .manage-menus, .menu-item-handle, .popular-tags, .stuffbox, .widget-inside, .widget-top, .widgets-holder-wrap, .wp-editor-container, p.popular-tags, table.widefat {
+
+    border: none !important;
+
+    box-shadow: none !important;
+
+}
+
+.wp-core-ui .button, .wp-core-ui .button-secondary {
+
+    background: #28669D!important;
+    color: white!important;
+
+}
+.wrap .add-new-h2, .wrap .add-new-h2:active, .wrap .page-title-action, .wrap .page-title-action:active {
+	background: #28669D!important;
+	color: white!important;
+	border-radius: 3px!important;
+	font-weight: normal!important;
+
+}
+.wp-filter,.plugin-card {
+
+	border: none !important;
+
+	box-shadow: none !important;
+
+
+}
+.wp-admin .form-table select {
+	line-height: 1.5!important;
+}
