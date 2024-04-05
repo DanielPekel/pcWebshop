@@ -11,6 +11,7 @@ $image          = wp_get_attachment_image_src( $custom_logo_id, 'full' );
     <meta name="author" content="<?PHP bloginfo( 'name' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://profi-web.nl/icon/styles.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri();?>/assets/css/main/main.css" rel="stylesheet">
     <script
             src="https://code.jquery.com/jquery-3.3.1.min.js"
             integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -25,10 +26,15 @@ $image          = wp_get_attachment_image_src( $custom_logo_id, 'full' );
 	<?php wp_head(); ?>
        <script src="https://kit.fontawesome.com/2962338799.js" crossorigin="anonymous"></script>
 </head>
-<body <?php body_class(); ?> style="background-color:#FFFFFF;">
+<style>
+    .navbar-light .navbar-nav .nav-link{
+        color:white!important;
+    }
+</style>
+<body <?php body_class(); ?> style="background-color:#000000;">
 
-<div class="d-none d-md-block bg-white">
-    <nav class="navbar navbar-expand-md navbar-light bg-white p-2" id="desktop_menu" role="navigation"
+<div class="d-none d-md-block bg-black">
+    <nav class="navbar navbar-expand-md navbar-light bg-black p-2" id="desktop_menu" role="navigation"
          style="padding-top: 0 !important;">
         <div class="container">
 

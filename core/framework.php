@@ -711,7 +711,6 @@ class theme_setup
         $this->pt_icon = $pt_icon;
     }
 
-
 }
 
 class customizer
@@ -741,7 +740,7 @@ class customizer
 
         function add_panel($wp_customize)
         {
-            $customizer = new customizer('Themanaam', 'https://Themanaam.nl');
+            $customizer = new customizer('PcWebshop', 'https://naam.nl');
             $wp_customize->add_panel('panel_id', array(
                 'priority' => 2,
                 'capability' => 'edit_theme_options',
