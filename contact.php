@@ -2,10 +2,10 @@
 
 <?php get_header(); ?>
     <div class="container my-3">
-        <h2 class="font-weight-bold"><?php the_title(); ?></h2>
+        <h2 class="font-weight-bold" style="color:#00ff08;"><?php the_title(); ?></h2>
 
         <div class="row">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6" style="color:#00ff08;">
 				<?php while ( have_posts() ) : the_post(); ?>
 
 					<?php the_content(); ?>

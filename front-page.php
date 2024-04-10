@@ -1,5 +1,8 @@
 <?php get_header(); ?>
-    <div class="container">
+    <div class="container-fluid px-0 mx-0">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/media/impression.jpg" width="100%"/>
+    </div>
+    <div class="container pt-5">
         <div class="row mx-0 px-0">
             <?php
             $args = array(
@@ -16,9 +19,9 @@
 //                echo '<br /><a href="' . get_permalink() . '">' . woocommerce_get_product_thumbnail() . ' ' . get_the_title() . '</a>';
                 ?>
                 <div class="col-12 col-md-4 my-3 productcard">
-                    <a href="<?php echo get_permalink();?>">
+                    <a href="<?php echo get_permalink(); ?>">
                         <div class="container text-center">
-                            <div class="container pt-3">
+                            <div class="container pt-3 bg-white">
                                 <img width="100%" height="auto" src="<?php echo get_the_post_thumbnail_url(); ?>"/>
                             </div>
                             <div class="container pt-3">
