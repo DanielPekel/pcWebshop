@@ -19,7 +19,7 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
-
+echo '<div class="container">';
 if ( ! empty( $breadcrumb ) ) {
 
 	echo $wrap_before;
@@ -44,3 +44,4 @@ if ( ! empty( $breadcrumb ) ) {
 	echo $wrap_after;
 
 }
+echo '<div class="container">';

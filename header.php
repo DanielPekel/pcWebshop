@@ -49,7 +49,7 @@ $image = wp_get_attachment_image_src($custom_logo_id, 'full');
                 </div>
                 <div class="col-md-4 pt-4">
                     <div class="container text-center pt-5">
-                        <h1 style="color:#00ff08;font-weight:bold;font-size:40px;">PCWebshop</h1>
+                        <h1 style="font-weight:bold;font-size:40px;"><a style="color:#00ff08;" href="<?php echo get_site_url();?>">PCWebshop</a></h1>
                     </div>
                 </div>
                 <div class="col-md-5 pt-2">

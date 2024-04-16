@@ -19,5 +19,25 @@ a:hover{
     color:#00a208!important;
 }
 bdi{
-    color:#00ff08;
+    color:white;
+    font-weight:bolder;
+    font-size: 23px;
+}
+.single-products{
+    background-color:#00ff08!important;
+    padding:0 10px;
+    border-radius:20px;
+    color:white!important;
+    text-align: center;
+}
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) #respond input#submit, .woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) a.button, .woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) button.button, .woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) input.button, :where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce #respond input#submit, :where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce a.button, :where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce button.button, :where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce input.button{
+    width:100%;
+    background-color: black!important;
+    color:white!important;
+}
+.woocommerce-loop-product__title{
+    color:black;
+    font-weight:bold;
+    font-size:25px;
+    padding-top:20px;
 }

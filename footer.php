@@ -1,7 +1,7 @@
 <footer class="bg-black">
     <div class="container p-4" style="border-top:white 1px solid ;">
         <div class="row" style="color:#00ff08;">
-            <?php dynamic_sidebar('footer'); ?>
+<!--            --><?php //dynamic_sidebar('footer'); ?>
         </div>
     </div>
 </footer>
