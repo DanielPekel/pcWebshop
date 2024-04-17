@@ -44,3 +44,9 @@ bdi{
 *{
     color:white;
 }
+.woocommerce .quantity .qty{
+    color:black;
+}
+.woocommerce .woocommerce-ordering select{
+    color:black;
+}
